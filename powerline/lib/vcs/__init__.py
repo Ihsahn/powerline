@@ -217,6 +217,7 @@ vcs_props = (
 	('git', '.git', os.path.exists),
 	('mercurial', '.hg', os.path.isdir),
 	('bzr', '.bzr', os.path.isdir),
+	('svn', '.svn', os.path.isdir),
 )
 
 
